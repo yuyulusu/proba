@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+    <link rel="stylesheet" href="forma.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cont-1">
+        <p class="title">Спланируй свой отдых!</p>
+            <div class="border">
+                <form class="form">
+                    <div class="form-row">
+                        <label>
+                            <input type="radio" name="place" class="radio visually-hidden" checked>
+                            <span>Река</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="place" class="radio visually-hidden">
+                            <span>Лес</span>
+                        </label>
+                    </div>
+                    <div class="form-row">
+                        <label>
+                            <input type="radio" name="days" class="radio visually-hidden">
+                            <span>3 дня</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="days" class="radio visually-hidden">
+                            <span>5 дней</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="days" class="radio visually-hidden" checked>
+                            <span>7 дней</span>
+                        </label>
+                    </div>
+                    <button class="funct" type="submit">Отправить</button>
+                    <button class="funct" type="reset">Сбросить настройки</button>
+                </form>
+        </div>
+    </div>
+</body>
+</html>
